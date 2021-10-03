@@ -1,6 +1,6 @@
 {
   "name": "react-knock",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/corlogix/knock#readme",
   "dependencies": {
-    "knockjs": "0.0.0"
+    "knockjs": "0.0.1"
   },
   "devDependencies": {
     "@types/react": "^17.0.24",
