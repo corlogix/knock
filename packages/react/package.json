@@ -1,0 +1,37 @@
+{
+  "name": "react-knock",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/corlogix/knock.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "corlogixco@gmail.com",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/corlogix/knock/issues"
+  },
+  "homepage": "https://github.com/corlogix/knock#readme",
+  "dependencies": {
+    "knockjs": "0.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.24",
+    "@types/react-dom": "^17.0.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.2",
+    "react-dom": ">=17.0.2"
+  }
+}
